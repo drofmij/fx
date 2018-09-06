@@ -1,0 +1,14 @@
+This is based on Baja's Clone of the Orange AD200B preamp. I built this per Johnk's version on the [original thread](http://freestompboxes.org/viewtopic.php?f=13&t=28961&view=unread&sid=48e1a8c39ae74f20a4534faedff610bc)
+
+My understanding is that Baja built this preamp using the frequency and clipping characteristics of the original amp, as such it is not a part for part copy of the original.
+
+Currently UNVERIFIED and planning to fit it into a 1590b once I have time to order boards and build it. If you build this before I get to it please let me know how it works out.
+
+Transistor and opamp are SMD / SMT but should not be too bad. for the 1uf caps I was planning on using tantalum or mlcc so used a footprint that will allow it instead of the normal electrolytic ones. The board allows for top mount IN OUT jacks and top mount power jack if you want to use them.
+
+PLEASE NOTE: I designed this to be used in conjunction with a 3pdt daughter board which has power filtering on it. As such I did not add proper power filtering to this schem / board
+
+- [Eagle cad files](https://github.com/drofmij/fx/tree/master/Baja-Orange-AD200B)
+- [Parts list CSV](https://raw.githubusercontent.com/drofmij/fx/master/Baja-Orange-AD200B/ad200b-bom.csv)
+
+Final NOTE / Warning: This is entirely untested, I am open to input but will likely respond very asynchronously as Real Life is a bit crazy right now. There is no warranty or support included with this design.
