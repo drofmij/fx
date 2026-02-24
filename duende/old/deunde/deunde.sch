@@ -1,0 +1,265 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:deunde-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L JACK_2P OUT1
+U 1 1 55E9DAD6
+P 2100 1950
+F 0 "OUT1" H 1750 1750 50  0000 C CNN
+F 1 "JACK_2P" H 1950 2200 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_2x_1mmDrill" H 2100 1950 60  0001 C CNN
+F 3 "" H 2100 1950 60  0000 C CNN
+	1    2100 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L JACK_2P IN1
+U 1 1 55E9DB17
+P 5600 1950
+F 0 "IN1" H 5250 1750 50  0000 C CNN
+F 1 "JACK_2P" H 5450 2200 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_2x_1mmDrill" H 5600 1950 60  0001 C CNN
+F 3 "" H 5600 1950 60  0000 C CNN
+	1    5600 1950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +9V #PWR01
+U 1 1 55E9E3FF
+P 2950 1300
+F 0 "#PWR01" H 2950 1150 50  0001 C CNN
+F 1 "+9V" H 2950 1440 50  0000 C CNN
+F 2 "" H 2950 1300 60  0000 C CNN
+F 3 "" H 2950 1300 60  0000 C CNN
+	1    2950 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP 22uF1
+U 1 1 55E9E51F
+P 3200 1550
+F 0 "22uF1" H 3225 1650 50  0000 L CNN
+F 1 "CP" H 3225 1450 50  0000 L CNN
+F 2 "Capacitors_Elko_ThroughHole:Elko_vert_11x5mm_RM2" H 3238 1400 30  0001 C CNN
+F 3 "" H 3200 1550 60  0000 C CNN
+	1    3200 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L D 1N1
+U 1 1 55E9E59B
+P 3500 1550
+F 0 "1N1" H 3500 1650 50  0000 C CNN
+F 1 "D" H 3500 1450 50  0000 C CNN
+F 2 "Diodes_ThroughHole:Diode_P600_Horizontal" H 3500 1550 60  0001 C CNN
+F 3 "" H 3500 1550 60  0000 C CNN
+	1    3500 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L POT 1M1
+U 1 1 55E9E611
+P 3750 2200
+F 0 "1M1" H 3750 2100 50  0000 C CNN
+F 1 "POT" H 3750 2200 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Alps-RK16-single" H 3750 2200 60  0001 C CNN
+F 3 "" H 3750 2200 60  0000 C CNN
+	1    3750 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 55E9E68E
+P 3750 2550
+F 0 "#PWR02" H 3750 2300 50  0001 C CNN
+F 1 "GND" H 3750 2400 50  0000 C CNN
+F 2 "" H 3750 2550 60  0000 C CNN
+F 3 "" H 3750 2550 60  0000 C CNN
+	1    3750 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 55E9E6B9
+P 3500 1800
+F 0 "#PWR03" H 3500 1550 50  0001 C CNN
+F 1 "GND" H 3500 1650 50  0000 C CNN
+F 2 "" H 3500 1800 60  0000 C CNN
+F 3 "" H 3500 1800 60  0000 C CNN
+	1    3500 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C1
+U 1 1 55E9E708
+P 4450 1300
+F 0 "C1" H 4460 1370 50  0000 L CNN
+F 1 "C_Small" H 4460 1220 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 4450 1300 60  0000 C CNN
+F 3 "" H 4450 1300 60  0000 C CNN
+	1    4450 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 100K1
+U 1 1 55E9E767
+P 4850 1350
+F 0 "100K1" V 4930 1350 50  0000 C CNN
+F 1 "R" V 4850 1350 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Cement_Horizontal_Meggitt-SBC-2" V 4780 1350 30  0001 C CNN
+F 3 "" H 4850 1350 30  0000 C CNN
+	1    4850 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 55E9E7ED
+P 4850 1600
+F 0 "#PWR04" H 4850 1350 50  0001 C CNN
+F 1 "GND" H 4850 1450 50  0000 C CNN
+F 2 "" H 4850 1600 60  0000 C CNN
+F 3 "" H 4850 1600 60  0000 C CNN
+	1    4850 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NJFET_DSG J1
+U 1 1 55E9EA09
+P 4350 2200
+F 0 "J1" H 4650 2250 50  0000 R CNN
+F 1 "Q_NJFET_DSG" H 5000 2150 50  0000 R CNN
+F 2 "Wire_Pads:SolderWirePad_3x_1mmDrill" H 4550 2300 29  0001 C CNN
+F 3 "" H 4350 2200 60  0000 C CNN
+	1    4350 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT 25K1
+U 1 1 55E9EAB4
+P 4000 1350
+F 0 "25K1" H 4000 1250 50  0000 C CNN
+F 1 "POT" H 4000 1350 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer-Piher_PT15-V12-5_horizontal" H 4000 1350 60  0001 C CNN
+F 3 "" H 4000 1350 60  0000 C CNN
+	1    4000 1350
+	0    1    1    0   
+$EndComp
+Connection ~ 3200 1400
+Wire Wire Line
+	3500 1400 3500 1100
+Wire Wire Line
+	3500 1100 4000 1100
+Wire Wire Line
+	4000 1600 4450 1600
+Wire Wire Line
+	4450 1600 4450 1400
+Wire Wire Line
+	4450 1200 4850 1200
+Wire Wire Line
+	4850 1500 4850 1600
+Wire Wire Line
+	3200 1700 3200 2050
+Wire Wire Line
+	3500 1800 3500 1700
+Wire Wire Line
+	4000 1600 4000 1800
+Wire Wire Line
+	4000 1800 4450 1800
+Wire Wire Line
+	4450 1800 4450 2000
+Wire Wire Line
+	3900 2200 4150 2200
+Wire Wire Line
+	3750 1950 3600 1950
+Wire Wire Line
+	3600 1950 3600 2750
+Wire Wire Line
+	3600 2750 5150 2750
+Wire Wire Line
+	5150 2750 5150 2050
+$Comp
+L GND #PWR05
+U 1 1 55E9EFB8
+P 4450 2550
+F 0 "#PWR05" H 4450 2300 50  0001 C CNN
+F 1 "GND" H 4450 2400 50  0000 C CNN
+F 2 "" H 4450 2550 60  0000 C CNN
+F 3 "" H 4450 2550 60  0000 C CNN
+	1    4450 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 1800 5150 1600
+Wire Wire Line
+	5150 1600 4850 1600
+Wire Wire Line
+	4450 2400 4450 2550
+Wire Wire Line
+	3750 2450 3750 2550
+Wire Wire Line
+	3200 2050 2550 2050
+$Comp
+L GND #PWR06
+U 1 1 55EEFE07
+P 2850 1800
+F 0 "#PWR06" H 2850 1550 50  0001 C CNN
+F 1 "GND" H 2850 1650 50  0000 C CNN
+F 2 "" H 2850 1800 60  0000 C CNN
+F 3 "" H 2850 1800 60  0000 C CNN
+	1    2850 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 1800 2850 1800
+Wire Wire Line
+	2950 1300 2950 1400
+Wire Wire Line
+	2950 1400 3200 1400
+Wire Wire Line
+	3200 1400 3200 1250
+Wire Wire Line
+	3200 1250 3500 1250
+Connection ~ 3500 1250
+$EndSCHEMATC

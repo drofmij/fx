@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/drofm/Copy/backup/project/pcb/duende/deunde/deunde.sch</source>
+    <date>9/8/2015 11:24:11 AM</date>
+    <tool>Eeschema (2015-09-03 BZR 6154, Git 4636d8d)-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>deunde.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="OUT1">
+      <value>JACK_2P</value>
+      <footprint>Wire_Pads:SolderWirePad_2x_1mmDrill</footprint>
+      <libsource lib="device" part="JACK_2P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E9DAD6</tstamp>
+    </comp>
+    <comp ref="IN1">
+      <value>JACK_2P</value>
+      <footprint>Wire_Pads:SolderWirePad_2x_1mmDrill</footprint>
+      <libsource lib="device" part="JACK_2P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E9DB17</tstamp>
+    </comp>
+    <comp ref="22uF1">
+      <value>CP</value>
+      <footprint>Capacitors_Elko_ThroughHole:Elko_vert_11x5mm_RM2</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E9E51F</tstamp>
+    </comp>
+    <comp ref="1N1">
+      <value>D</value>
+      <footprint>Diodes_ThroughHole:Diode_P600_Horizontal</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E9E59B</tstamp>
+    </comp>
+    <comp ref="1M1">
+      <value>POT</value>
+      <footprint>Potentiometers:Potentiometer_Alps-RK16-single</footprint>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E9E611</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>C_Small</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E9E708</tstamp>
+    </comp>
+    <comp ref="100K1">
+      <value>R</value>
+      <footprint>Resistors_ThroughHole:Resistor_Cement_Horizontal_Meggitt-SBC-2</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E9E767</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Q_NJFET_DSG</value>
+      <footprint>Wire_Pads:SolderWirePad_3x_1mmDrill</footprint>
+      <libsource lib="device" part="Q_NJFET_DSG"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E9EA09</tstamp>
+    </comp>
+    <comp ref="25K1">
+      <value>POT</value>
+      <footprint>Potentiometers:Potentiometer_Trimmer-Piher_PT15-V12-5_horizontal</footprint>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E9EAB4</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="JACK_2P">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JACK_2P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="POT">
+      <description>Potentionmetre</description>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_NJFET_DSG">
+      <description>Transistor N-JFET (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NJFET_DSG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="G" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(25K1-Pad3)">
+      <node ref="25K1" pin="3"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="2" name="Net-(100K1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="100K1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(22uF1-Pad2)">
+      <node ref="OUT1" pin="1"/>
+      <node ref="22uF1" pin="2"/>
+    </net>
+    <net code="4" name="Net-(1M1-Pad2)">
+      <node ref="1M1" pin="2"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="5" name="Net-(1M1-Pad1)">
+      <node ref="1M1" pin="1"/>
+      <node ref="IN1" pin="1"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="1M1" pin="3"/>
+      <node ref="1N1" pin="2"/>
+      <node ref="IN1" pin="3"/>
+      <node ref="OUT1" pin="3"/>
+      <node ref="100K1" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="7" name="+9V">
+      <node ref="25K1" pin="1"/>
+      <node ref="1N1" pin="1"/>
+      <node ref="22uF1" pin="1"/>
+    </net>
+    <net code="8" name="Net-(OUT1-Pad2)">
+      <node ref="OUT1" pin="2"/>
+    </net>
+    <net code="9" name="Net-(IN1-Pad2)">
+      <node ref="IN1" pin="2"/>
+    </net>
+    <net code="10" name="Net-(25K1-Pad2)">
+      <node ref="25K1" pin="2"/>
+    </net>
+  </nets>
+</export>
